@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "archived_on": "2026-11-06",
+  "timezone": "Europe/Berlin",
+  "project_version": "0.1.0-pilot.10",
+  "documentation_base_revision_note": "Stand vor der Archiv-Ergänzung; Commit-IDs durch Datenschutzbereinigung ersetzt",
+  "scope": "Nachgewiesene Rollen und Skill-Lektüren dieses Planspiel-Projektchats vom 5.–6. November 2026.",
+  "snapshot_note": "SHA-256 identifiziert die am Archivdatum vorhandenen Hauptanleitungen, nicht nachgewiesen unveränderte historische Versionen. Originaldateien sind nur für die drei Skills mit mitgelieferter Apache-Lizenz kopiert; andere Skills sind durch eigene Nutzungsprofile und Herkunft dokumentiert.",
+  "agent_profiles": [
+    {
+      "id": "/root",
+      "path": "agents/hauptagent.md",
+      "kind": "redaktionell_zusammengefasst",
+      "model_override": "nicht_dokumentiert"
+    },
+    {
+      "id": "/root/board_edges",
+      "path": "agents/board_edges.md",
+      "kind": "redaktionell_zusammengefasst",
+      "model_override": "nicht_dokumentiert"
+    },
+    {
+      "id": "/root/dice_3d",
+      "path": "agents/dice_3d.md",
+      "kind": "redaktionell_zusammengefasst",
+      "model_override": "nicht_dokumentiert"
+    },
+    {
+      "id": "/root/graphics_review",
+      "path": "agents/graphics_review.md",
+      "kind": "redaktionell_zusammengefasst",
+      "model_override": "nicht_dokumentiert"
+    }
+  ],
+  "skills": [
+    {
+      "id": "imagegen",
+      "status": "eingesetzt",
+      "source": "~/.codex/skills/.system/imagegen/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T15:27:24.055Z",
+        "2026-11-05T15:28:09.335Z",
+        "2026-11-05T15:38:13.178Z",
+        "2026-11-06T11:55:46.486Z",
+        "2026-11-06T12:05:23.046Z",
+        "2026-11-06T13:38:54.716Z",
+        "2026-11-06T14:00:59.714Z",
+        "2026-11-06T15:18:38.119Z",
+        "2026-11-06T15:19:00.540Z"
+      ],
+      "files": [
+        {
+          "path": "skills/imagegen/LICENSE.txt",
+          "source": "~/.codex/skills/.system/imagegen/LICENSE.txt",
+          "role": "legal_notice",
+          "bytes": 10776,
+          "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "path": "skills/imagegen/SKILL.md",
+          "source": "~/.codex/skills/.system/imagegen/SKILL.md",
+          "role": "main",
+          "bytes": 19201,
+          "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+        }
+      ],
+      "source_skill_sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba",
+      "archive_mode": "original_with_apache_license"
+    },
+    {
+      "id": "pdf-local",
+      "status": "eingesetzt",
+      "source": "~/.codex/skills/pdf/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T17:15:14.747Z",
+        "2026-11-05T18:50:19.282Z"
+      ],
+      "files": [
+        {
+          "path": "skills/pdf-local/LICENSE.txt",
+          "source": "~/.codex/skills/pdf/LICENSE.txt",
+          "role": "legal_notice",
+          "bytes": 10776,
+          "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        {
+          "path": "skills/pdf-local/SKILL.md",
+          "source": "~/.codex/skills/pdf/SKILL.md",
+          "role": "main",
+          "bytes": 2517,
+          "sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2"
+        }
+      ],
+      "source_skill_sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "archive_mode": "original_with_apache_license"
+    },
+    {
+      "id": "pdf-runtime",
+      "status": "eingesetzt",
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/pdf/26.1103.10131/skills/pdf/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T13:59:53.002Z",
+        "2026-11-05T15:02:36.254Z",
+        "2026-11-05T15:27:24.055Z",
+        "2026-11-05T15:47:50.226Z"
+      ],
+      "files": [],
+      "source_skill_sha256": "a6e20f4ae66364a06d577dd51e0ce66ee2ef955be129cbe195e0a27f403daaf8",
+      "archive_mode": "usage_profile_and_provenance",
+      "profile": "skills/pdf-runtime/README.md",
+      "copy_note": "Es wurde keine mitgelieferte Freigabe für die Weitergabe des Skill-Texts erfasst. Dieser Ordner dokumentiert daher Verwendung und Herkunft; die Originalanleitung wird aus ihrer vorhandenen Installation gelesen."
+    },
+    {
+      "id": "playwright",
+      "status": "eingesetzt",
+      "source": "~/.codex/skills/playwright/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T16:21:12.813Z",
+        "2026-11-05T18:34:22.552Z"
+      ],
+      "files": [
+        {
+          "path": "skills/playwright/LICENSE.txt",
+          "source": "~/.codex/skills/playwright/LICENSE.txt",
+          "role": "legal_notice",
+          "bytes": 11552,
+          "sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda"
+        },
+        {
+          "path": "skills/playwright/NOTICE.txt",
+          "source": "~/.codex/skills/playwright/NOTICE.txt",
+          "role": "legal_notice",
+          "bytes": 403,
+          "sha256": "417d5d3372914ecfd9fe102ac1d7dc2119253209f9718d6c222f616876c1904b"
+        },
+        {
+          "path": "skills/playwright/SKILL.md",
+          "source": "~/.codex/skills/playwright/SKILL.md",
+          "role": "main",
+          "bytes": 3771,
+          "sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8"
+        }
+      ],
+      "source_skill_sha256": "0ffaabcc8e0990627c4725f18bf1c7955534a796c1c199e872909de2013ce6a8",
+      "archive_mode": "original_with_apache_license"
+    },
+    {
+      "id": "diagnose",
+      "status": "eingesehen",
+      "source": "~/.codex/skills/diagnose/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T18:12:58.283Z",
+        "2026-11-05T20:31:00.220Z",
+        "2026-11-06T15:18:38.119Z"
+      ],
+      "files": [],
+      "source_skill_sha256": "28886402bbfa0470248086eab9106a103b964b76ae9496e63ff0c8a6761b6d13",
+      "archive_mode": "usage_profile_and_provenance",
+      "profile": "skills/diagnose/README.md",
+      "copy_note": "Es wurde keine mitgelieferte Freigabe für die Weitergabe des Skill-Texts erfasst. Dieser Ordner dokumentiert daher Verwendung und Herkunft; die Originalanleitung wird aus ihrer vorhandenen Installation gelesen."
+    },
+    {
+      "id": "setup-matt-pocock-skills",
+      "status": "eingesehen",
+      "source": "~/.codex/skills/setup-matt-pocock-skills/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T18:12:58.283Z",
+        "2026-11-05T20:31:00.220Z",
+        "2026-11-06T15:18:38.119Z"
+      ],
+      "files": [],
+      "source_skill_sha256": "c778d4e3d86ecc9125c357279a86780657b5db23110e1f7acf4f46d2441e7204",
+      "archive_mode": "usage_profile_and_provenance",
+      "profile": "skills/setup-matt-pocock-skills/README.md",
+      "copy_note": "Es wurde keine mitgelieferte Freigabe für die Weitergabe des Skill-Texts erfasst. Dieser Ordner dokumentiert daher Verwendung und Herkunft; die Originalanleitung wird aus ihrer vorhandenen Installation gelesen."
+    },
+    {
+      "id": "prototype",
+      "status": "eingesehen",
+      "source": "~/.codex/skills/prototype/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T15:02:36.254Z"
+      ],
+      "files": [],
+      "source_skill_sha256": "a01bb2e47db34f1ed7c1e3eb530dae18780412755ddd417e8687a3386a03f20c",
+      "archive_mode": "usage_profile_and_provenance",
+      "profile": "skills/prototype/README.md",
+      "copy_note": "Es wurde keine mitgelieferte Freigabe für die Weitergabe des Skill-Texts erfasst. Dieser Ordner dokumentiert daher Verwendung und Herkunft; die Originalanleitung wird aus ihrer vorhandenen Installation gelesen."
+    },
+    {
+      "id": "documents",
+      "status": "eingesehen",
+      "source": "~/.codex/plugins/cache/openai-primary-runtime/documents/26.1103.10131/skills/documents/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T14:07:05.698Z"
+      ],
+      "files": [],
+      "source_skill_sha256": "c9b9ba61ac15f20a600220bc10a380c7753992bbd3c323bfe33fae864adefc21",
+      "archive_mode": "usage_profile_and_provenance",
+      "profile": "skills/documents/README.md",
+      "copy_note": "Die mitgelieferte Lizenz untersagt dauerhafte Kopien außerhalb des Dienstes. Deshalb enthält dieser Ordner ein eigenes Nutzungsprofil und die Herkunft, keine Kopie des Skill-Pakets."
+    },
+    {
+      "id": "write-page",
+      "status": "eingesehen",
+      "source": "~/.codex/plugins/cache/openai-curated-remote/pages/0.1.26/skills/write-page/SKILL.md",
+      "observed_read_timestamps_utc": [
+        "2026-11-05T14:07:05.698Z",
+        "2026-11-05T14:07:13.541Z"
+      ],
+      "files": [],
+      "source_skill_sha256": "39cb2ab7aa056cd00a38067f833cf5a7f19206e104e58320fc113ba699c14493",
+      "archive_mode": "usage_profile_and_provenance",
+      "profile": "skills/write-page/README.md",
+      "copy_note": "Es wurde keine mitgelieferte Freigabe für die Weitergabe des Skill-Texts erfasst. Dieser Ordner dokumentiert daher Verwendung und Herkunft; die Originalanleitung wird aus ihrer vorhandenen Installation gelesen."
+    }
+  ],
+  "subsequent_uses": [
+    {
+      "date": "2026-11-13",
+      "agent": "/root",
+      "skill_id": "pdf-local",
+      "source_skill_sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2",
+      "task": "Zenodo 17811561: Original-PDFs auf Herkunft und Lizenzhinweise prüfen; Textauszug, Rendering und Sichtprüfung; Dateien unverändert archiviert.",
+      "originals": "../originalmaterial/zenodo-17811561/README.md",
+      "tools": [
+        "pdftotext",
+        "pdftoppm",
+        "view_image"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "agent": "/root",
+      "skill_id": "pdf-local",
+      "task": "Datenschutzkorrektur in vier historischen Bedienungs-PDFs; echte Inhaltsentfernung, Ersatztext, Rendering und Sichtprüfung. Zenodo-Originale unverändert.",
+      "tools": [
+        "pymupdf",
+        "view_image"
+      ]
+    }
+  ]
+}

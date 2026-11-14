@@ -1,0 +1,2 @@
+# Preserve archived originals, including source line endings, for SHA-256 verification.
+*/** -text

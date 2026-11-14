@@ -1,0 +1,102 @@
+# SPDX-FileCopyrightText: 2026 Contributors to the OSH-Planspiel project
+# SPDX-License-Identifier: CC-BY-4.0
+
+version = 1
+
+# Lizenzzuordnung dieses Dokumentationsrepos; siehe LIZENZ.md.
+# Keine globale Vorgabe für unbekannte neue Dateien oder separat verwalteten
+# App-Code. Vorhandene Angaben in Dateien/Sidecars haben mit "closest" Vorrang.
+
+# Eigene Dokumentation, Herkunftsnachweise und Repository-Metadaten.
+[[annotations]]
+path = [
+  ".gitattributes",
+  ".gitignore",
+  "README.md",
+  "CHANGELOG.md",
+  "CONTRIBUTING.md",
+  "LIZENZ.md",
+  "agents-und-skills/README.md",
+  "agents-und-skills/agents/*.md",
+  "agents-und-skills/manifest.json",
+  "agents-und-skills/nachweise.md",
+  "agents-und-skills/skills/.gitattributes",
+  "agents-und-skills/skills/README.md",
+  "agents-und-skills/skills/*/README.md",
+  "originalmaterial/zenodo-17811561/README.md",
+  "originalmaterial/zenodo-17811561/manifest.json",
+  "originalmaterial/zenodo-17811561/SHA256SUMS",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 Contributors to the OSH-Planspiel project <https://github.com/AlexDorsten/osh-planspiel-docs>"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Spielbezogene Dokumentation, Fragen und grafische Bearbeitungen.
+# Die ursprünglichen Urheber werden für zugrunde liegende Spielbestandteile
+# mitgenannt. Eigenständige Drittbestandteile bleiben wie in LIZENZ.md abgegrenzt.
+[[annotations]]
+path = ["docs/**", "assets/**", "pdf/**"]
+precedence = "closest"
+SPDX-FileCopyrightText = [
+  "2025 Dorothea Schneider",
+  "2025 Natalie Früholz",
+  "2025 Florian Rabis",
+  "2025 Katarzyna Wiesenhütter",
+  "2026 Contributors to the OSH-Planspiel project <https://github.com/AlexDorsten/osh-planspiel-docs>",
+]
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "Digitale Bearbeitung und Erweiterungen; ursprüngliches Spiel: https://doi.org/10.5281/zenodo.17811561. Änderungen: CHANGELOG.md."
+
+# Fünf unveränderte Originaldateien; keine neue Projekt-Urheberschaft hinzufügen.
+[[annotations]]
+path = [
+  "originalmaterial/zenodo-17811561/OSH_Game_Board.pdf",
+  "originalmaterial/zenodo-17811561/OSH_Game_Board.pptx",
+  "originalmaterial/zenodo-17811561/OSH_Game_Manual.pdf",
+  "originalmaterial/zenodo-17811561/OSH_Game_Manual.docx",
+  "originalmaterial/zenodo-17811561/OSH_Game_Question_Cards.xlsx",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = [
+  "2025 Dorothea Schneider",
+  "2025 Natalie Früholz",
+  "2025 Florian Rabis",
+  "2025 Katarzyna Wiesenhütter",
+]
+SPDX-License-Identifier = "CC-BY-4.0"
+SPDX-FileComment = "Unverändert aus Zenodo 17811561; Lizenz laut Eintrag: https://doi.org/10.5281/zenodo.17811561."
+
+# Die Lizenz des Metadaten-Snapshots folgt der Zenodo-Metadatenrichtlinie,
+# nicht der im Snapshot genannten Lizenz der fünf hinterlegten Spieldateien.
+[[annotations]]
+path = "originalmaterial/zenodo-17811561/zenodo-record.json"
+precedence = "closest"
+SPDX-FileCopyrightText = "Contributors to Zenodo record 17811561 <https://zenodo.org/records/17811561>"
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileComment = "Unveränderter Metadaten-Snapshot ohne E-Mail-Adressen. Quelle der CC0-Zuordnung: https://about.zenodo.org/policies/ (Metadata access and reuse)."
+
+# Archivierte Originalanleitungen aus der OpenAI-Codex-Skill-Sammlung.
+# Keine unbelegten individuellen Autoren oder Entstehungsjahre ergänzen.
+[[annotations]]
+path = [
+  "agents-und-skills/skills/imagegen/SKILL.md",
+  "agents-und-skills/skills/pdf-local/SKILL.md",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "Contributors to the OpenAI Codex skill collection"
+SPDX-License-Identifier = "Apache-2.0"
+SPDX-FileComment = "Unveränderte archivierte Skill-Anleitungen. Herkunft und Prüfsummen: agents-und-skills/manifest.json; ursprüngliche Lizenztexte in den jeweiligen Ordnern."
+
+# Microsoft-Herkunft laut mitgelieferter NOTICE; Codex-Anpassungen mitgenannt.
+[[annotations]]
+path = [
+  "agents-und-skills/skills/playwright/SKILL.md",
+  "agents-und-skills/skills/playwright/NOTICE.txt",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = [
+  "Microsoft Corporation",
+  "Contributors to the OpenAI Codex skill collection",
+]
+SPDX-License-Identifier = "Apache-2.0"
+SPDX-FileComment = "Abgeleitet von microsoft/playwright-cli und für die Codex-Skill-Sammlung angepasst; archivierte NOTICE.txt und LICENSE.txt bleiben unverändert."

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "record_id": 17811561,
+  "doi": "10.5281/zenodo.17811561",
+  "record_url": "https://zenodo.org/records/17811561",
+  "retrieved_on": "2026-11-13",
+  "publication_date": "2025-12-04",
+  "license": {
+    "spdx_id": "CC-BY-4.0",
+    "zenodo_id": "cc-by-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "text_source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+    "text_file": "LICENSE.txt",
+    "text_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  },
+  "metadata_file": "zenodo-record.json",
+  "metadata_sha256": "b94834a4d0cdb4a27a3ab6bdf8f5eb7571d5863d7ee1a8ad5e77981269b4a033",
+  "files": [
+    {
+      "filename": "OSH_Game_Board.pdf",
+      "bytes": 94500,
+      "source_url": "https://zenodo.org/api/records/17811561/files/OSH_Game_Board.pdf/content",
+      "zenodo_checksum": "md5:0382d2e3ba52b0bd27bc00f7e469282a",
+      "sha256": "f61818ba51478b4a54c1143137cbada7532aa2afd7379c21796e20be5cee27d7",
+      "modified": false
+    },
+    {
+      "filename": "OSH_Game_Question_Cards.xlsx",
+      "bytes": 17722,
+      "source_url": "https://zenodo.org/api/records/17811561/files/OSH_Game_Question_Cards.xlsx/content",
+      "zenodo_checksum": "md5:2f64dcf9f0b1b002836341ae7bdcae71",
+      "sha256": "1d97bd65589e9f1aefe74d6e8d113c1da5918087c35aac1c5a66968b4f361a3b",
+      "modified": false
+    },
+    {
+      "filename": "OSH_Game_Board.pptx",
+      "bytes": 89701,
+      "source_url": "https://zenodo.org/api/records/17811561/files/OSH_Game_Board.pptx/content",
+      "zenodo_checksum": "md5:ad54ebc3dda1149a3599ba7a94b93c31",
+      "sha256": "d9557c8ecd60d29d479fe537ff53ffc454c4b06cf945ba137899564d28782f4f",
+      "modified": false
+    },
+    {
+      "filename": "OSH_Game_Manual.pdf",
+      "bytes": 208716,
+      "source_url": "https://zenodo.org/api/records/17811561/files/OSH_Game_Manual.pdf/content",
+      "zenodo_checksum": "md5:f33793780922849af807b12fa4dd5327",
+      "sha256": "af105fca30336a6725504b5630e66724f09f1682cedf999202f0aa39ef5bc17a",
+      "modified": false
+    },
+    {
+      "filename": "OSH_Game_Manual.docx",
+      "bytes": 45831,
+      "source_url": "https://zenodo.org/api/records/17811561/files/OSH_Game_Manual.docx/content",
+      "zenodo_checksum": "md5:5e2bd9c199293a81c068c7dcab540884",
+      "sha256": "399a81afbbda7974c2097dc62ecde53e8240e6a2cfd606dff02e8545d1697012",
+      "modified": false
+    }
+  ]
+}
